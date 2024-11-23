@@ -23,7 +23,7 @@ int main() {
 
     int total_steps = 0;
     
-    int left_steps = (pos_one + K - 1 - 1) / (K - 1);
+    int left_steps = (pos_one + K - 1 -1) / (K - 1);
     int right_steps = (N - pos_one - 1 + K - 2) / (K - 1);
     total_steps = left_steps + right_steps;
 
